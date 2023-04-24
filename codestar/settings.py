@@ -29,11 +29,11 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['codestar112.herokuapp.com', '8000-groundbuilder-djangoblog-09ij3nruj3.us2.codeanyapp.com', 'localhost', 'git.heroku.com/codestar112.git']
+ALLOWED_HOSTS = ['codestar112.herokuapp.com', '8000-groundbuilder-djangoblog-ie4s2vpqvf.us2.codeanyapp.com', 'localhost', 'git.heroku.com/codestar112.git', '127.0.0.1', 'https://8000-groundbuilder-djangoblog-ie4s2vpqvf.us2.codeanyapp.com/']
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
