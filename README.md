@@ -47,6 +47,8 @@ pip3 install django-summernote
 ## Terminal code to remeber
 
 python3 manage.py migrate
+
+ <!-- {{ comment_form | crispy }}  -->
 python3 manage.py runserver
 
 # For env.py
